@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+    <link rel="stylesheet" href="ass2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+    <header aria-label="header" id="body-header" class="header">
+        <a href="#main-content"  tabindex="0" class="visually-hidden">Skip to main</a> <!--Fragment identifier for skip to main content-->
+        <marquee behavior="roll" direction="left"> <!--School identification number/Department/name of INSTRUCTOR-->
+            <h1 aria-label="School I.D"><strong>AltSchool ID: ALT/SOE/024/2615 <span>SCHOOL OF ENGINEERING - <b>Engr. Ojo Oluwasetemi</b>  - 1st Semester Instructor.</span></strong> </h1>
+        </marquee>
+            <div class="header-content">
+                <div class="body-header-logo" id="body-header-logo">
+                    <a href="https://altschoolafrica.com" target="_blank">
+                        <embed id="altschool-logo"
+                            src="https://media.licdn.com/dms/image/v2/C4E0BAQH25RnaRWwPlQ/company-logo_200_200/company-logo_200_200/0/1633989076093?e=1742428800&v=beta&t=xs_K8nn8IcMAKamMdgcoUcatpLjsV-l2eFu6TQk22Ps"
+                            type="image/jpeg" link="https://altschoolafrica.com/" name="altschool-logo" weight="50px" height="70px">
+                        <label for="header" id="label">
+                    </a>
+                </div>
+                <section id="header-section-2">
+                    <!--Navigation-->
+                    <nav aria-label="navigation" class="menu">
+                        <ul id="nav-ul">
+                            <li id="navli"><a href="/index.html" class="menu" id="Back-to-home">HOME</a></li>
+                            <li id="navli"><a href="table.html" class="menu" id="galary">COURSES</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+    </header>
+    <main id="main-content">
+        <div>
+            <article>
+                <h1>MULTIMEDIA PAGE</h1>
+                <p>
+                    This media page contains a picture of my humble-self.
+                    The kind of melody i listen to, a short video of a match, A video of how i did love to have quite study.
+                </p>
+                <p>
+                    The great thing about social media was how it gave a voice to voiceless people.
+                </p>
+                <p>
+                    The world is a complex place, and the influence of the media in its representation and its power of communication and interpretation is a remarkable amplifier of emotions, and of illusions.
+                </p>
+            </article>
+            
+            <div id="image-container" style="display: flex; gap: 10px;">
+                <section><!--picture Tag for this section-->
+                    <h3>Humble Self</h3>
+                    <picture>
+                        <source srcset="/Assignment-2/Assets/93E92D82-A0F7-48F0-8E41-662212E5C778.jpeg" media="(max-width:300px)">
+                        <source srcset="/Assignment-2/Assets/AF3C103C-8874-4DBC-A2BC-F2A88E88B597_4_5005_c.jpeg" media="(max-width:600px)">
+                        <img src="/Assignment-2/Assets/D66F731F-5AD6-427D-8209-252A4A355826.jpeg" alt="Myself" height="400px" width="250px" id="myself">
+                    </picture>
+                </section>
+            
+                <section id="nature"><!--embed tag for this section-->
+                    <h3>Nature</h3>
+                    <embed src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" type="image/jpeg" width="300px" height="250px">
+                </section>
+            </div>
+            <section id="audio" style="border: 1rem solid grey; border-radius: 1rem; background-color: rgb(135, 129, 129);"><!--audio tag is used for this section-->
+                <h3>Melody that helps meditate</h3>
+            
+                <audio id="play" controls style="position: relative;">
+                    <source src="/Assets/Audio/meditation-music-without-nature-sound-256142.mp3" type="audio/ogg">
+                    <source src="/Assets/Audio/meditation-music-without-nature-sound-256142.mp3" type="audio/mpeg" >
+                </audio>
+                <a href="/Assets/Audio/meditation-music-without-nature-sound-256142.mp3">Download</a>
+            </section>
+            <section style="border: 1rem solid grey; border-radius: 1rem; background-color: rgb(135, 129, 129);"><!--embed Tag is used for this section-->
+                <h3>About AltSchool Africa</h3>
+                <embed class="video" src="https://www.youtube.com/embed/7QA-86k0cEQ?si=0pr-jqB4eRb-CUnb" type="video/webm" title="about altschool africa" width="300px" height="250px">
+            </section>
+            
+            
+            <section style="border: 1rem solid grey; border-radius: 1rem; background-color: rgb(135, 129, 129);"><!--iframe Tag is used for this section-->
+                <h3>Calm study atmostphere</h3>
+                <iframe src="https://www.youtube.com/embed/1yUS5637Dqs?si=wlfMyL9n1Sfesaze"
+                frameborder="0"
+                width="300px" height="250px"
+                title="I love soothing music to Study"
+                allowfullscreen
+                allowpaymentrequest="video" class="video"></iframe>
+            </section>
+            <section style="border: 1rem solid grey; border-radius: 1rem; background-color: rgb(135, 129, 129);"><!--Video Tag is used for this section-->
+                <h3>Awesome Goals</h3>
+            
+                <video aria-label="A short footbal video" width="300px" height="250px" title="Short footbal video" controls class="video">
+                    <source src="/Assets/Videos/Apple_s_New_Instagram_Showcases_The_Best_Of_iPhone.mp4" type="video/mp4" width="700px" height="500px">
+                    <source src="/Assets/Videos/Apple_s_New_Instagram_Showcases_The_Best_Of_iPhone.mp4" type="video/ogg" width="700px" height="500px">
+                </video>
+                <a href="/Assets/Videos/Apple_s_New_Instagram_Showcases_The_Best_Of_iPhone.mp4">Download</a>
+            </section>
+        </div>
+        
+        
+    </main>
+
+    <footer id="index-footer">
+        <div>
+            <span>
+                &copy; 2024 Emmanuel Imeh. All right reserved.
+            </span>
+            <br/>
+            <span>
+                Address: Badagry, Lagos state, Nigeria.
+            </span>
+        </div>
+    </footer>
+    
+</body>
+</html>

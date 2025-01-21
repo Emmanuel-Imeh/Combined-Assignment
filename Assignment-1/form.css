@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0%; */
+    /* padding: 0%; */
+    [href]{
+        text-decoration: none;
+    }
+}
+:root{
+    background-color: floralwhite;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: whitesmoke;
+    display: grid;
+    position: sticky;
+    border-bottom: 5px solid darkgrey;
+    >a{
+        width: max-content;
+    }
+    .menu ul {
+       /* margin-inline: 300px; */
+       display: flex;
+       gap: 5%;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       
+       > li{
+            border: 2px solid rgb(92, 15, 216);
+            border-radius: 5px;
+            list-style: none;
+          
+        }
+        & .menu{
+            color: blue;
+        }
+    }
+      
+}
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.header-content{
+    margin-inline: 5%;
+    gap: 40%;
+    display: flex;
+    justify-content: baseline;
+    align-content: baseline;
+    align-items:center;
+    #header-section-1{
+      
+        [id~="altschool-logo"]{
+            border-radius: 50%;
+        }
+
+    }
+}
+[id~="altschool-logo"]{
+    border-radius: 20%;
+    width: 100%;
+    height: 50px;
+
+}
+/* [id~="main-content"]{
+    padding: 10%;
+    
+    padding-top: 15%;
+    .form{
+        margin: 0 auto;
+    }
+    
+} */
+/* [id~="main-content"] > article{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 30px;
+    color: white;
+    font-family: var(--font1);
+    
+} */
+fieldset{
+    background-color: white;
+    border-radius: 5px;
+}
+#form-controln{
+    display: grid;
+    grid-template-columns: 200px 200px;
+
+}
+#form-control1, #form-control2, #form-control3, #form-control4, #form-control5{
+    display: grid;
+  
+    grid-template-columns: 200px 200px;
+}
+.form{
+    justify-self: center;
+    padding-top: 20px; 
+
+}
+fieldset{
+    width: fit-content;
+
+}
+input{
+    height: 40px;
+    &:hover{
+        border: 3px solid green;
+    }
+}
+legend{
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid blue;
+}
+/* #ff{
+    @media screen and (width < 400px) {
+        font-size: small;
+        width: 220px;
+        text-align: justify;
+        
+    }
+    #checkbox{
+        margin: 0%;
+        padding: 0%;
+        width: 10px;
+        height: 10px;
+    }
+} */
+footer{
+    background-color:rgb(120, 120, 200);
+    align-content: center;
+    align-items: center;
+    text-align: center; 
+    @media screen and (width < 400) {
+        font-size: x-small;
+    }
+}
