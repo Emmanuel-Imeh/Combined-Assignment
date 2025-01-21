@@ -53,6 +53,7 @@
     syntax: "<font-style>";
 }
 
+
 input{
     font-family: var(--font2);
     color: var(--color);
@@ -75,11 +76,17 @@ marquee{
 }
 
 /* Folder Page */
+.Assignment-Hub{
+    width: 100%;
+
+}
+
 .container-wrapper{
+    margin: 0 auto;
   
     max-width: max-content;
     max-width: 200px;
-    justify-self: center;
+    /* justify-self: center; */
     margin-block: 20%;
     gap: 1em;
     > div :hover{
@@ -169,7 +176,7 @@ dialog{
     }
 }
 .container{
-    margin-inline: -10%;
+    /* margin-inline: -10%; */
 }
 marquee{
     width: 100%;

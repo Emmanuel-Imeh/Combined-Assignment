@@ -38,12 +38,12 @@
                     <div id="form-control1">
                         <div id="form-control">
                             <label for="firstname"> First Name </label><br>
-                            <input type="text" name="Firstname" id="firstname" placeholder="First Name" required>
+                            <input type="text" name="Firstname" id="firstname" class="input" placeholder="First Name" required>
                             <p id="error"></p>
                         </div>
                         <div id="form-control">
                             <label for="lastname"> Last Name</label><br>
-                            <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                            <input type="text" name="lastname" id="lastname" class="input" placeholder="Last Name" required>
                             <p id="error"></p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                     <div id="form-control2">
                         <div id="form-control">
                             <label for="gender">Gender</label><br>
-                            <select>
+                            <select class="input">
                                 <option value="select Gender">Select Gender</option>
                                 <option value="Male">Male</option>
                                 <option value="Female">Female</option>
@@ -61,7 +61,7 @@
                         </div>
                         <div id="form-control">
                             <label for="dob">Date of Birth</label><br>
-                            <input type="date" name="dob" id="dob" placeholder="DD/MM/YYYY" required>
+                            <input type="date" name="dob" id="dob" class="input" placeholder="DD/MM/YYYY" required>
                             <p error="error"></p>
                         </div>
                     </div>
@@ -69,12 +69,12 @@
                     <div id="form-control3">
                         <div id="form-control">
                             <label for="email">Email</label><br>
-                            <input type="email" name="email" id="email" placeholder="Email address" required>
+                            <input type="email" name="email" id="email" class="input" placeholder="Email address" required>
                             <p error="error"></p>
                         </div>
                         <div id="form-control">
                             <label for="phone">Phone Number</label><br>
-                            <input type="tel" name="phone" id="phone" placeholder="0800-000-0000" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+                            <input type="tel" name="phone" id="phone" class="input" placeholder="0800-000-0000" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
                             <p error="error"></p>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                     <div id="form-controln">
                         <div id="form-control">
                             <label for="country">Country</label><br>
-                            <input list="countries" name="countries" id="country" placeholder="Select Country">
+                            <input list="countries" name="countries" id="country" class="input" placeholder="Select Country">
                             <datalist id="countries">
                                 <option value="Afghanistan">Afghanistan</option>
                                 <option value="Albania">Albania</option>
@@ -284,7 +284,7 @@
                         </div>
                         <div id="form-control4">
                             <label for="city">State/City of Residence</label><br>
-                            <input type="text" name="city" id="city" placeholder="Enter your state of residence" required>
+                            <input type="text" name="city" id="city" class="input" placeholder="Enter your state of residence" required>
                             <p id="error"></p>
                         </div>
                     </div>
@@ -292,7 +292,7 @@
                     <div id="form-control">
                         <label for="means of awareness">How did you know about us?</label>
                         <br/>
-                        <select>
+                        <select class="input">
                             <option value="channel" unchecked>Select channel</option>
                             <option value="Twitter">Twitter</option>
                             <option value="Facabook">Facabook</option>
@@ -311,12 +311,12 @@
                     <div id="form-control5">
                         <div id="form-control">
                             <label for="Password">Password</label><br>
-                            <input type="password" name="password" id="password" min="8" placeholder="Enter password" required>
+                            <input type="password" name="password" id="password" class="input" min="8" placeholder="Enter password" required>
                             <p id="error"></p>
                         </div>
                         <div id="form-control">
                             <label for="confirm">Confirm Password</label><br>
-                            <input type="password" name="confirm" id="confirm" minlength="8" placeholder=" Confirm password" required>
+                            <input type="password" name="confirm" id="confirm" class="input" minlength="8" placeholder=" Confirm password" required>
                             <p id="error"></p>
                         </div>
                     </div>
