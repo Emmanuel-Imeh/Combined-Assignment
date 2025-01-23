@@ -69,24 +69,12 @@ header{
     height: 50px;
 
 }
-/* [id~="main-content"]{
-    padding: 10%;
-    
-    padding-top: 15%;
-    .form{
-        margin: 0 auto;
-    }
-    
-} */
-/* [id~="main-content"] > article{
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    gap: 30px;
+[type~="submit"]{
+    background-color: rgb(81, 81, 241);
     color: white;
-    font-family: var(--font1);
-    
-} */
+    width: 90%;
+    border-radius: 5px;
+}
 fieldset{
     background-color: white;
     border-radius: 5px;
@@ -107,7 +95,7 @@ fieldset{
 
 }
 fieldset{
-    width: fit-content;
+    width: 60%;
 
 }
 input{
@@ -122,6 +110,7 @@ legend{
     border: 1px solid blue;
 }
 #ff{
+    width: 60%;
     @media screen and (width < 400px) {
         font-size: small;
         width: 220px;
@@ -134,6 +123,18 @@ legend{
         width: 10px;
         height: 10px;
     }
+}
+select{
+    width: 90%;
+    height: 45px;
+}
+#dob{
+    width: 75%;
+    height: 45px;
+}
+[name~="city"]{
+    width: 75%;
+    height: 45px;
 }
 footer{
     margin-top: 5%;
