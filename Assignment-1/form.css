@@ -110,7 +110,7 @@ legend{
     border: 1px solid blue;
 }
 #ff{
-    width: 60%;
+    width: 90%;
     @media screen and (width < 400px) {
         font-size: small;
         width: 220px;
@@ -129,12 +129,13 @@ select{
     height: 45px;
 }
 #dob{
-    width: 75%;
+    width: 79%;
     height: 45px;
 }
 [name~="city"]{
-    width: 75%;
-    height: 45px;
+    width: 80%;
+    height: 40px;
+    
 }
 footer{
     margin-top: 5%;
