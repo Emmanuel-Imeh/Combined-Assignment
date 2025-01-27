@@ -92,8 +92,27 @@ fieldset{
 .form{
     justify-self: center;
     padding-top: 20px; 
+    >div{
+        display: flex;
+        gap: 20%;
+    }
+
 
 }
+@media screen and (max-width: 425px) {
+    .form{
+        justify-self: center;
+        padding-top: 20px; 
+        >div{
+            display: inline;
+            gap: 0%;
+        }
+    
+    
+    }
+    
+}
+
 fieldset{
     width: 60%;
 
